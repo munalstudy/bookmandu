@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <title>Sign In</title>
     <link rel="stylesheet" type="text/css" href="../css/authentication.css">
 </head>
 
@@ -12,22 +12,21 @@
 
     <div class="authentication-container">
         <div class="authentication-box">
-            <h3>Register an Account</h3>
+            <h2>Bookmandu</h2>
+            <p>You must log in</p>
 
             <button id="googleBtn">
                 <span id="googleIcon">G</span>&nbsp;&nbsp;&nbsp;&nbsp;Continue with Google
             </button>
             <p>OR</p>
-            <form action="/register" method="post">
-                <input type="text" name="fullName" placeholder="Full Name" required>
+            <form action="/login" method="post">
                 <input type="text" name="username" placeholder="Email/Username" required>
                 <input type="password" name="password" placeholder="Password" required>
-                <input type="password" name="confirmPassword" placeholder="Confirm Password" required>
 
-                <button id="registerButton" type="submit">Register</button>
+                <button id="submitButton" type="submit">Sign in</button>
             </form>
 
-            <p>Already have an account? <a href="./login.html">Sign In</a></p>
+            <p>Don't have an account? <a href="./register.html">Sign up</a></p>
         </div>
     </div>
 
