@@ -1,0 +1,172 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #f4cccc; /* This is a light pink color, similar to the background in your image */
+  overflow: hidden;
+  height: 50px; /* Adjust height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+
+#navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: black; /* Or any other color */
+}
+.navbar-links {
+  flex-basis: 45%;
+}
+.navbar-links .nav-link,
+.navbar-auth .auth-link {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.navbar-auth {
+  display: flex;
+  align-items: center;
+}
+
+.auth-link {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.auth-link:before {
+  content: "⚫"; /* This is a placeholder for the icons */
+  margin-right: 5px;
+}
+.trending-container {
+  text-align: center;
+}
+.trending-container button {
+  height: 30px;
+  width: 195px;
+  background-color: blue;
+  color: #fff;
+  border: none;
+}
+/* product grid css */
+
+.product-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  padding: 10px;
+}
+
+.product-card {
+  /* width: calc(
+    20% - 20px
+  );  */
+  margin: 10px;
+  background-color: #fff; /* Assuming product cards are white */
+  text-align: center;
+  position: relative;
+}
+
+.product-image {
+  width: 200px;
+  height: 150px; /* Adjust as needed */
+  background-color: #ccc; /* Placeholder color for the image */
+}
+
+.add-to-cart-btn {
+  background-color: #007bff; /* Bootstrap primary button color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 10px;
+  width: calc(100% - 20px);
+  border-radius: 10px;
+}
+.add-to-cart-btn:hover {
+  background-color: #0056b3; /* Darken button on hover */
+}
+/* borrow area */
+.borrow-container {
+  background-color: #f4cccc; /* This is a light pink color, similar to the background in your image */
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+  margin: 25px;
+  border: 1px solid black;
+}
+.container1 {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.container2 {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.container1 button {
+  height: 35px;
+  background-color: blue;
+  color: #fff;
+  border: none;
+  width: 150px;
+  border-radius: 10px;
+}
+.container2 button {
+  height: 35px;
+  background-color: blue;
+  color: #fff;
+  border: none;
+  width: 150px;
+  border-radius: 10px;
+}
+
+/* feedback */
+.feedback-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+}
+.feedback-container button {
+  width: 250px;
+  background-color: blue;
+  color: #fff;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+}
+/* footer */
+.site-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4cccc; /* This is a light pink color, similar to the background in your image */
+  height: 75px;
+  margin-top: 20px;
+}
+.site-footer p {
+  font-size: 20px;
+  font-style: bold;
+}
+
+/* Responsive adjustments might be necessary depending on the actual content and design specifics */
