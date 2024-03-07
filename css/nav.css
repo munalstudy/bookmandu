@@ -1,0 +1,47 @@
+.navbar {
+    background-color: #f4cccc; /* This is a light pink color, similar to the background in your image */
+    overflow: hidden;
+    height: 50px; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+  }
+  
+  #navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: black; /* Or any other color */
+  }
+  .navbar-links {
+    flex-basis: 45%;
+  }
+  .navbar-links .nav-link,
+  .navbar-auth .auth-link {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-size: 16px;
+  }
+  
+  .navbar-auth {
+    display: flex;
+    align-items: center;
+  }
+  
+  .auth-link {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .auth-link:before {
+    content: "⚫"; /* This is a placeholder for the icons */
+    margin-right: 5px;
+  }
