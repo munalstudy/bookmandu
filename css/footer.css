@@ -1,12 +1,12 @@
 /* footer */
 .site-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f4cccc; /* This is a light pink color, similar to the background in your image */
-    height: 75px;
-  }
-  .site-footer p {
-    font-size: 20px;
-    font-style: bold;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4cccc;
+  height: 75px;
+}
+.site-footer p {
+  font-size: 20px;
+  font-style: bold;
+}

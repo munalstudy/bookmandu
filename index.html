@@ -1,94 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./css/index.css" />
     <link rel="stylesheet" type="text/css" href="./css/nav.css" />
     <link rel="stylesheet" type="text/css" href="./css/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
     <title>BookMandu</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav class="navbar">
-        <div class="navbar-container">
-            <div id="navbar-logo">BOOKMANDU</div>
-            <div class="navbar-links">
-                <a href="#" class="nav-link">Home</a>
-                <a href="#" class="nav-link">Genre</a>
-                <a href="#" class="nav-link">Deals</a>
-                <a href="#" class="nav-link">About us</a>
-                <a href="pages/contactUs.html" class="nav-link">Contact us</a>
-            </div>
-            <div class="navbar-auth">
-                <a href="pages/login.html" class="auth-link">Log in</a>
-                <a href="pages/register.html" class="auth-link">Sign up</a>
-            </div>
+      <div class="navbar-container">
+        <div id="navbar-logo">BOOKMANDU</div>
+        <div class="navbar-links">
+          <a href="#" class="nav-link">Home</a>
+          <a href="#" class="nav-link">Genre</a>
+          <a href="#" class="nav-link">Deals</a>
+          <a href="#" class="nav-link">About us</a>
+          <a href="pages/contactUs.html" class="nav-link">Contact us</a>
         </div>
+        <div class="navbar-auth">
+          <a href="pages/login.html" class="auth-link">
+            <i class="fa fa-user" style="margin-right: 10px"></i>Log in</a
+          >
+          <a href="pages/register.html" class="auth-link"
+            ><i class="fa fa-user-plus" style="margin-right: 10px"></i>Sign
+            up</a
+          >
+        </div>
+      </div>
     </nav>
+    <!-- banner part -->
+    <div class="banner">
+      <div class="banner-text">
+        <h1>ENJOY YOUR LEARNING</h1>
+        <p>
+          Upgrade your book haul by saving at least 50% off list prices. Every
+          day.
+        </p>
+        <div class="buttons">
+          <button class="shop-button">Explore Books</button>
+          <button class="shop-button">Shop Books</button>
+        </div>
+      </div>
+      <div class="banner-image">
+        <img src="./assets/img/cover.jpg" alt="People reading books" />
+        <button class="help-button">Help</button>
+      </div>
+    </div>
     <!-- Trending books -->
     <div class="trending-container">
-        <p>Trending Books</p>
-        <button>See Books Ranking</button>
+      <p>Trending Books</p>
+      <button>See Books Ranking</button>
     </div>
     <div class="product-grid">
-        <!-- Product 1 -->
-        <div class="product-card">
-            <div class="product-image"></div>
-            <p>Book 1</p>
-            <p>Price</p>
-            <button class="add-to-cart-btn">Add to cart</button>
+      <div class="product-card">
+        <div class="product-image">
+          <img src="./assets/img/booklist/book1.jpg" />
         </div>
-        <div class="product-card">
-            <div class="product-image"></div>
-            <p>Book 1</p>
-            <p>Price</p>
-            <button class="add-to-cart-btn">Add to cart</button>
+        <p class="book-name">Book 1</p>
+        <p class="book-price">Price</p>
+        <button class="add-to-cart-btn">Add to cart</button>
+      </div>
+      <div class="product-card">
+        <div class="product-image">
+          <img src="./assets/img/booklist/book2.jpg" />
         </div>
-        <div class="product-card">
-            <div class="product-image"></div>
-            <p>Book 1</p>
-            <p>Price</p>
-            <button class="add-to-cart-btn">Add to cart</button>
+        <p class="book-name">Book 1</p>
+        <p class="book-price">Price</p>
+        <button class="add-to-cart-btn">Add to cart</button>
+      </div>
+      <div class="product-card">
+        <div class="product-image">
+          <img src="./assets/img/booklist/book3.jpg" />
         </div>
-        <div class="product-card">
-            <div class="product-image"></div>
-            <p>Book 1</p>
-            <p>Price</p>
-            <button class="add-to-cart-btn">Add to cart</button>
+        <p class="book-name">Book 1</p>
+        <p class="book-price">Price</p>
+        <button class="add-to-cart-btn">Add to cart</button>
+      </div>
+      <div class="product-card">
+        <div class="product-image">
+          <img src="./assets/img/booklist/book4.jpg" />
         </div>
-        <div class="product-card">
-            <div class="product-image"></div>
-            <p>Book 1</p>
-            <p>Price</p>
-            <button class="add-to-cart-btn">Add to cart</button>
+        <p class="book-name">Book 1</p>
+        <p class="book-price">Price</p>
+        <button class="add-to-cart-btn">Add to cart</button>
+      </div>
+      <div class="product-card">
+        <div class="product-image">
+          <img src="./assets/img/booklist/book5.jpg" />
         </div>
+        <p class="book-name">Book 1</p>
+        <p class="book-price">Price</p>
+        <button class="add-to-cart-btn">Add to cart</button>
+      </div>
+      <div class="product-card">
+        <div class="product-image">
+          <img src="./assets/img/booklist/book3.jpg" />
+        </div>
+        <p class="book-name">Book 1</p>
+        <p class="book-price">Price</p>
+        <button class="add-to-cart-btn">Add to cart</button>
+      </div>
+      <div class="product-card">
+        <div class="product-image">
+          <img src="./assets/img/booklist/book2.jpg" />
+        </div>
+        <p class="book-name">Book 1</p>
+        <p class="book-price">Price</p>
+        <button class="add-to-cart-btn">Add to cart</button>
+      </div>
+      <div class="product-card">
+        <div class="product-image">
+          <img src="./assets/img/booklist/book1.jpg" />
+        </div>
+        <p class="book-name">Book 1</p>
+        <p class="book-price">Price</p>
+        <button class="add-to-cart-btn">Add to cart</button>
+      </div>
+    </div>
+    <!-- bestseller -->
+    <div class="authors-section">
+      <h2>Bestselling Authors</h2>
+      <p>
+        Discover Books by Bestselling Authors in Our Collection, Ranked by
+        Popularity.
+      </p>
+      <div class="authors-container">
+        <!-- Repeat this block for each author -->
+        <div class="author-card">
+          <img
+            src="./assets/img/booklist/book1.jpg"
+            alt="Author Name"
+            class="author-image"
+          />
+          <p class="author-name">Author Name</p>
+        </div>
+        <div class="author-card">
+          <img
+            src="./assets/img/booklist/book1.jpg"
+            alt="Author Name"
+            class="author-image"
+          />
+          <p class="author-name">Author Name</p>
+        </div>
+        <div class="author-card">
+          <img
+            src="./assets/img/booklist/book1.jpg"
+            alt="Author Name"
+            class="author-image"
+          />
+          <p class="author-name">Author Name</p>
+        </div>
+        <div class="author-card">
+          <img
+            src="./assets/img/booklist/book1.jpg"
+            alt="Author Name"
+            class="author-image"
+          />
+          <p class="author-name">Author Name</p>
+        </div>
+        <div class="author-card">
+          <img
+            src="./assets/img/booklist/book1.jpg"
+            alt="Author Name"
+            class="author-image"
+          />
+          <p class="author-name">Author Name</p>
+        </div>
+        <div class="author-card">
+          <img
+            src="./assets/img/booklist/book1.jpg"
+            alt="Author Name"
+            class="author-image"
+          />
+          <p class="author-name">Author Name</p>
+        </div>
+        <div class="author-card">
+          <img
+            src="./assets/img/booklist/book1.jpg"
+            alt="Author Name"
+            class="author-image"
+          />
+          <p class="author-name">Author Name</p>
+        </div>
+        <div class="author-card">
+          <img
+            src="./assets/img/booklist/book1.jpg"
+            alt="Author Name"
+            class="author-image"
+          />
+          <p class="author-name">Author Name</p>
+        </div>
+        <div class="author-card">
+          <img
+            src="./assets/img/booklist/book1.jpg"
+            alt="Author Name"
+            class="author-image"
+          />
+          <p class="author-name">Author Name</p>
+        </div>
+        <div class="author-card">
+          <img
+            src="./assets/img/booklist/book1.jpg"
+            alt="Author Name"
+            class="author-image"
+          />
+          <p class="author-name">Author Name</p>
+        </div>
+        <!-- ... -->
+      </div>
     </div>
     <!-- borrow area -->
     <div class="borrow-container">
-        <div class="container1">
-            <p style="font-size: 20px"><b>We provide books with great deals</b></p>
-            <button>Buy/Borrow a book</button>
-        </div>
-        <div class="container2">
-            <p style="font-size: 20px">
-                <b>Didn't find the book you want? Make a book request</b>
-            </p>
-            <button>Request a book</button>
-        </div>
+      <div class="container1">
+        <p style="font-size: 20px"><b>We provide books with great deals</b></p>
+        <button>Buy/Borrow a book</button>
+      </div>
+      <div class="container2">
+        <p style="font-size: 20px">
+          <b>Didn't find the book you want? Make a book request</b>
+        </p>
+        <button>Request a book</button>
+      </div>
     </div>
     <!-- feedback -->
-    <div class="feedback-container">
-        <p style="font-size: 20px">
-            <b>We really value your feedback</b>
+    <div class="newsletter-container">
+      <div class="newsletter-content">
+        <h2>Subscribe to our Newsletter</h2>
+        <p>
+          Submit your email address to receive offers and updates from BookMandu
         </p>
-        <button>Leave a message</button>
+        <input type="email" placeholder="Your Email Address" /><br />
+        <button>Subscribe Now</button>
+      </div>
+
+      <!-- <div class="book">
+        <img src="./assets/img/booklist/book1.jpg" alt="Book Title" />
+      </div> -->
     </div>
     <!-- footer -->
     <footer class="site-footer">
-        <p>Footer</p>
+      <p>Footer</p>
     </footer>
-</body>
-
+  </body>
 </html>

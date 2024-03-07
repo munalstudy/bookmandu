@@ -7,22 +7,95 @@ html {
 
 .trending-container {
   text-align: center;
+  margin-top: 50px;
+}
+.trending-container p {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 .trending-container button {
-  height: 30px;
+  height: 40px;
   width: 195px;
-  background-color: blue;
+  background-color: #007bff;
   color: #fff;
   border: none;
 }
+/* banner css */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff;
+}
+
+.banner-text {
+  color: white;
+  padding: 20px;
+  width: 50%;
+}
+
+.banner-text h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.banner-text p {
+  font-size: 1em;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.shop-button {
+  background-color: white;
+  color: #4caf50;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.shop-button:hover {
+  background-color: #e7e7e7;
+}
+
+.banner-image {
+  position: relative;
+  width: 50%;
+}
+
+.banner-image img {
+  width: 100%;
+  height: auto;
+}
+
+.help-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.help-button:hover {
+  background-color: darkred;
+}
+
 /* product grid css */
 
 .product-grid {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 25px;
   padding: 10px;
+  gap: 1rem;
+  margin-left: 30px;
 }
 
 .product-card {
@@ -30,19 +103,31 @@ html {
     20% - 20px
   );  */
   margin: 10px;
-  background-color: #fff; /* Assuming product cards are white */
+  background-color: #fff;
   text-align: center;
   position: relative;
 }
 
 .product-image {
   width: 200px;
-  height: 150px; /* Adjust as needed */
-  background-color: #ccc; /* Placeholder color for the image */
+  height: 150px;
+  background-color: #ccc;
 }
-
+.product-image img {
+  width: 200px;
+  height: 150px;
+}
+.book-name {
+  font-size: 15px;
+  font-weight: bold;
+}
+.book-price {
+  font-size: 13px;
+  font-weight: bold;
+  color: grey;
+}
 .add-to-cart-btn {
-  background-color: #007bff; /* Bootstrap primary button color */
+  background-color: #007bff;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -53,11 +138,11 @@ html {
   border-radius: 10px;
 }
 .add-to-cart-btn:hover {
-  background-color: #0056b3; /* Darken button on hover */
+  background-color: #0056b3;
 }
 /* borrow area */
 .borrow-container {
-  background-color: #f4cccc; /* This is a light pink color, similar to the background in your image */
+  background-color: #f4cccc;
   padding: 10px;
   display: flex;
   justify-content: space-around;
@@ -94,17 +179,110 @@ html {
 }
 
 /* feedback */
-.feedback-container {
+.newsletter-container {
+  background-color: #0073e6;
+  color: white;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 150px;
+  justify-content: space-between;
+  padding: 20px;
+  height: 350px;
+  margin-bottom: 20px;
 }
-.feedback-container button {
-  width: 250px;
-  background-color: blue;
-  color: #fff;
-  height: 50px;
-  border-radius: 10px;
+
+.newsletter-content h2 {
+  font-size: 2.5rem;
+}
+
+.newsletter-content p {
+  font-size: 1rem;
+}
+
+.newsletter-content input[type="email"] {
+  padding: 20px;
+  margin: 22px 0;
   border: none;
+  border-radius: 4px;
 }
+
+.newsletter-content button {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background-color: #ffa500;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.newsletter-content button:hover {
+  background-color: #cc8400;
+}
+
+.trending-books {
+  display: flex;
+  overflow-x: auto;
+}
+
+.trending-books .book {
+  margin: 0 10px;
+}
+
+.trending-books .book img {
+  height: auto;
+  width: 100%;
+  max-width: 120px;
+}
+
+/* bestseller */
+.authors-section {
+  text-align: center;
+  padding: 40px;
+  background-color: #f9f9f9;
+
+  margin-bottom: 5rem;
+}
+
+.authors-section h2 {
+  margin-bottom: 5px;
+  font-size: 2em;
+}
+
+.authors-section p {
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.authors-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.author-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.author-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border: 3px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.author-name {
+  font-size: 1em;
+  color: #333;
+}
+
+/* Responsive considerations */
+@media (max-width: 768px) {
+  .authors-container {
+    flex-direction: column;
+  }
+}
+
+/* footer */
