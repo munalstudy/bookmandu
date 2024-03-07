@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <link rel="stylesheet" type="text/css" href="../css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Include Font Awesome CSS -->
+
+</head>
+<body>
+
+
+    <div class="row mainContent">
+        <div class="column">
+            <h2>Contact Us</h2>
+            <small class="smallCSS">Feel free to get in touch with us! </small>
+            <p>
+                Whether you have questions, feedback, or just want to say hello, we’re here to assist you.
+                Simply fill out the contact form below with your name, email address, and message, and we’ll respond promptly.<br><br>
+                
+                Your input is valuable to us, and we look forward to connecting with you. If you prefer other means of contact,
+                you can also reach us via phone or email, provided on this page. Thank you for visiting our website,
+                and we appreciate your interest in our services.
+            </p>
+
+            <div>
+                <div>
+                    <h3 class="contactSmallElement"> Address:</h3>
+                    <ul class="no-bullets">
+                        <li><i class="fas fa-map-marker iconAlign"></i> Kathmandu-Jawalkhel, Bagmati, Nepal</li>
+                      </ul>
+                </div>
+                <div>
+                    <h3 class="contactSmallElement"> Contact:</h3>
+                    <ul class="no-bullets">
+                        <li><i class="fas fa-phone iconAlign"></i> 977 123132322</li>
+                        <li><i class="fas fa-phone iconAlign"></i> 977 123132322</li>
+                        <li><i class="fas fa-phone iconAlign"></i> 977 123132322</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="contactSmallElement"> Mailing Address:</h3>
+                    <ul class="no-bullets">
+                        <li><i class="fas fa-envelope iconAlign"></i> <a href="mailto:bookmandu_hr@gmail.com">bookmandu_hr@gmail.com </a></li>
+                        <li><i class="fas fa-envelope iconAlign"></i> <a href="mailto:bookmandu_staff@gmail.com">bookmandu_staff@gmail.com </a></li>
+                        <li><i class="fas fa-envelope iconAlign"></i> <a href="mailto:bookmandu_admin@gmail.com"> bookmandu_admin@gmail.com </a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="column">
+            <h3>Contact Form</h3>
+
+            <div class="container">
+            <form action="#">
+                <label for="fullname">FullName</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Your name.." required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email.." required> <br>
+
+                <label for="reason">Reason To Contact</label>
+                <select id="reason" required>
+                <option value="general inquiries" selected>General Inquiries</option>
+                <option value="complain">Complain</option>
+                <option value="request">Request</option>
+                <option value="others">Others</option>
+
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+            </div>
+        </div>
+      </div>
+    
+</body>
+</html>

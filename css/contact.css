@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  height: auto; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 5px;
+}
+
+/* Contact CSS */
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.contactSmallElement {
+  margin-bottom: 0px;
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0px;
+  margin-left: 10px;
+  padding: 0;
+}
+
+.no-bullets {
+  list-style-type: none;
+  padding: 0;
+}
+
+.no-bullets li {
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.iconAlign {
+  margin-right: 10px;
+  /* color: #ccc;  */
+}
+
+.smallCSS {
+  margin: 0px;
+}
+
+.mainContent {
+  background-color: #E9F0F6;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 768px) {
+  .column {
+      width: 50%;
+  }
+}
