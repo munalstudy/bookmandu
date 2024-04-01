@@ -1,0 +1,58 @@
+#cotainerMain {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap; /* Allow input fields to wrap to the next line */
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px; /* Add margin bottom to create space between input fields */
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.submit-button {
+    text-align: center;
+    margin-top: 20px; /* Add margin top to create space between input fields and button */
+}
+
+.submit-button button {
+    padding: 10px 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button button:hover {
+    background-color: #0056b3;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.suggestedBookSec {
+    margin-top: 20px;
+}
+
+.responsive {
+    width: 100%;
+    height: auto; /* Change height to auto to maintain aspect ratio */
+    max-width: 100%; /* Ensure image doesn't overflow its container */
+    margin-bottom: 20px;
+}
