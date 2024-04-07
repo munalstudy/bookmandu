@@ -1,0 +1,33 @@
+.page-title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.genre-container {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-left: 55px;
+}
+
+.genre-card {
+  background-color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+.genre-image {
+  width: 150px;
+  height: 150px;
+  background-color: #ccc;
+}
+.genre-image img {
+  width: 150px;
+  height: 150px;
+}
+.genre-name {
+  font-size: 15px;
+  font-weight: bold;
+}

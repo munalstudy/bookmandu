@@ -1,0 +1,11 @@
+.buy-title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.buy-subtitle {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: red;
+}
