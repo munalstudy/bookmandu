@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Add a background color */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to new line if needed */
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0% 5%;
+    margin-bottom: 5%; 
+}
+.left-side {
+    flex: 1;
+    max-width: 400px; /* Limit image width */
+    margin-right: 20px; /* Add space between image and details */
+}
+.left-side img {
+    max-width: 100%;
+    height: auto;
+}
+.right-side {
+    flex: 1;
+}
+.book-details, .order-summary {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.proceed-checkout {
+    text-align: center;
+}
+.proceed-checkout button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.proceed-checkout button:hover {
+    background-color: #0056b3;
+}
+.textLeft {
+    text-align: left;
+    padding: 0% 5%; /* Adjust padding for better spacing */
+    margin-top: 30px; /* Adjust margin for better spacing */
+}
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack items vertically on small screens */
+        align-items: center; /* Center items vertically */
+    }
+    .left-side {
+        margin-right: 0; /* Remove margin on small screens */
+        margin-bottom: 20px; /* Add space between image and details */
+    }
+}
