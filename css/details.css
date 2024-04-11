@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.book-image-section {
+    flex: 0 0 30%;
+    padding: 10px;
+    height: 300px;
+    width: 160px;
+}
+
+.book-details-section {
+    flex: 1 1 auto;
+    padding: 10px;
+}
+
+.book-info-section {
+    flex-basis: calc(100% - 40px);
+}
+
+.bookSmallImage {
+    width: 80%;
+    height: 100%;
+}
+
+.book-details-section h2 {
+    margin-top: 0;
+}
+
+.info-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.info-row p {
+    margin: 5px;
+    color: blue;
+}
+
+.info-row span {
+    color: black;
+}
+
+.otherInfoRow {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    gap: 40px;
+}
+
+.reviews-section {
+    padding: 20px;
+    width: 100%;
+    background-color: bisque;
+}
+
+@media screen and (max-width: 480px) {
+    .bookSmallImage {
+        width: auto;
+        height: 100%;
+    }
+}
