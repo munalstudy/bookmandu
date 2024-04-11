@@ -1,0 +1,48 @@
+.divContent {
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftDiv {
+    background-color: #d9d9d9;
+    flex-basis: calc(50% - 10px);
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.rightDiv {
+    background-color: #eceff7;
+    flex-basis: calc(50% - 10px);
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dealsImage {
+    width: 100%;
+    height: auto;
+}
+
+.coupon {
+    color: blue;
+}
+
+button {
+    width: auto;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+#copyCouponBtn {
+    background-color: #116af0;
+}
+
+#discountDealsBtn {
+    background-color: #968787;
+}
