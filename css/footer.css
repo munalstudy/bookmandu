@@ -3,7 +3,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f4cccc;
+  background-color: #181b2f;
+  color: #ffffff;
   height: 75px;
 }
 .site-footer p {
