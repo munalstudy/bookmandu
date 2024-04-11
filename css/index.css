@@ -3,6 +3,7 @@ html {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+  overflow-x: hidden;
 }
 
 .trending-container {
@@ -13,12 +14,12 @@ html {
   font-size: 1.5rem;
   font-weight: bold;
 }
-.trending-container button {
-  height: 40px;
-  width: 195px;
+.trending-container a {
+  padding: 10px;
   background-color: #007bff;
   color: #fff;
   border: none;
+  text-decoration: none;
 }
 /* banner css */
 .banner {
@@ -67,7 +68,7 @@ html {
 }
 
 .banner-image img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -187,6 +188,7 @@ html {
   padding: 20px;
   height: 350px;
   margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .newsletter-content h2 {
@@ -286,3 +288,48 @@ html {
 }
 
 /* footer */
+/* Media Queries */
+@media (max-width: 1024px) {
+  /* Adjust for tablets and below */
+  .banner-text,
+  .banner-image {
+    width: 100%;
+  }
+
+  .banner {
+    flex-direction: column;
+  }
+  .banner-text h1 {
+    font-size: 1.5rem;
+  }
+  .banner {
+    padding: 10px;
+  }
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
+    padding: 10px;
+    gap: 1rem;
+  }
+  .borrow-container {
+    background-color: #f4cccc;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px;
+    flex-direction: column;
+    border: 1px solid black;
+    height: auto;
+  }
+  .site-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4cccc;
+    height: auto;
+    flex-direction: column;
+  }
+}

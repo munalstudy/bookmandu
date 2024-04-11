@@ -14,6 +14,8 @@
     <nav class="navbar">
       <div class="navbar-container">
         <div id="navbar-logo">BOOKMANDU</div>
+        <div class="hamburger" onclick="toggleNavbar()">☰</div>
+
         <div class="navbar-links">
           <a href="../index.html" class="nav-link">Home</a>
           <a href="./genre.html" class="nav-link">Genre</a>
@@ -170,3 +172,9 @@
     <p>Designed and developed by Bookmandu.</p>
   </footer>
 </html>
+<script>
+  function toggleNavbar() {
+    document.querySelector(".navbar-links").classList.toggle("open");
+    document.querySelector(".navbar-auth").classList.toggle("open");
+  }
+</script>

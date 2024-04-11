@@ -13,6 +13,8 @@
     <nav class="navbar">
       <div class="navbar-container">
         <div id="navbar-logo">BOOKMANDU</div>
+        <div class="hamburger" onclick="toggleNavbar()">☰</div>
+
         <div class="navbar-links">
           <a href="../index.html" class="nav-link">Home</a>
           <a href="./genre.html" class="nav-link">Genre</a>
@@ -36,6 +38,7 @@
               <img src="../assets/img/booklist/book1.jpg" />
             </div>
             <p class="genre-name">Book 1</p>
+            <button class="add-to-cart-btn">Buy</button>
           </div>
         </div>
         <div class="genre-grid">
@@ -44,6 +47,7 @@
               <img src="../assets/img/booklist/book1.jpg" />
             </div>
             <p class="genre-name">Book 1</p>
+            <button class="add-to-cart-btn">Buy</button>
           </div>
         </div>
         <div class="genre-grid">
@@ -52,6 +56,7 @@
               <img src="../assets/img/booklist/book1.jpg" />
             </div>
             <p class="genre-name">Book 1</p>
+            <button class="add-to-cart-btn">Buy</button>
           </div>
         </div>
         <div class="genre-grid">
@@ -60,6 +65,7 @@
               <img src="../assets/img/booklist/book1.jpg" />
             </div>
             <p class="genre-name">Book 1</p>
+            <button class="add-to-cart-btn">Buy</button>
           </div>
         </div>
         <div class="genre-grid">
@@ -68,6 +74,7 @@
               <img src="../assets/img/booklist/book1.jpg" />
             </div>
             <p class="genre-name">Book 1</p>
+            <button class="add-to-cart-btn">Buy</button>
           </div>
         </div>
         <div class="genre-grid">
@@ -76,6 +83,7 @@
               <img src="../assets/img/booklist/book1.jpg" />
             </div>
             <p class="genre-name">Book 1</p>
+            <button class="add-to-cart-btn">Buy</button>
           </div>
         </div>
         <div class="genre-grid">
@@ -84,6 +92,7 @@
               <img src="../assets/img/booklist/book1.jpg" />
             </div>
             <p class="genre-name">Book 1</p>
+            <button class="add-to-cart-btn">Buy</button>
           </div>
         </div>
         <div class="genre-grid">
@@ -92,6 +101,7 @@
               <img src="../assets/img/booklist/book1.jpg" />
             </div>
             <p class="genre-name">Book 1</p>
+            <button class="add-to-cart-btn">Buy</button>
           </div>
         </div>
         <div class="genre-grid">
@@ -100,6 +110,7 @@
               <img src="../assets/img/booklist/book1.jpg" />
             </div>
             <p class="genre-name">Book 1</p>
+            <button class="add-to-cart-btn">Buy</button>
           </div>
         </div>
       </div>
@@ -121,3 +132,9 @@
     </footer>
   </body>
 </html>
+<script>
+  function toggleNavbar() {
+    document.querySelector(".navbar-links").classList.toggle("open");
+    document.querySelector(".navbar-auth").classList.toggle("open");
+  }
+</script>

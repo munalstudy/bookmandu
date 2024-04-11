@@ -14,6 +14,8 @@
     <nav class="navbar">
       <div class="navbar-container">
         <div id="navbar-logo">BOOKMANDU</div>
+        <div class="hamburger" onclick="toggleNavbar()">☰</div>
+
         <div class="navbar-links">
           <a href="../index.html" class="nav-link">Home</a>
           <a href="./genre.html" class="nav-link">Genre</a>
@@ -28,62 +30,62 @@
       </div>
     </nav>
     <div class="ranking-container">
-       <h2>See the ranking of the books this months.</h2>
-       <table>
+      <h2>See the ranking of the books this months.</h2>
+      <table>
         <tr>
-            <th>Book Name</th>
-            <th>Book Author</th>
-            <th>Ranking</th>
+          <th>Book Name</th>
+          <th>Book Author</th>
+          <th>Ranking</th>
         </tr>
         <tr>
-            <td>Alfreds Futterkiste</td>
-            <td>Maria Anders</td>
-            <td>1</td>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>1</td>
         </tr>
         <tr>
-            <td>Centro comercial Moctezuma</td>
-            <td>Francisco Chang</td>
-            <td>2</td>
+          <td>Centro comercial Moctezuma</td>
+          <td>Francisco Chang</td>
+          <td>2</td>
         </tr>
         <tr>
-            <td>Ernst Handel</td>
-            <td>Roland Mendel</td>
-            <td>3</td>
+          <td>Ernst Handel</td>
+          <td>Roland Mendel</td>
+          <td>3</td>
         </tr>
         <tr>
-            <td>Island Trading</td>
-            <td>Helen Bennett</td>
-            <td>4</td>
+          <td>Island Trading</td>
+          <td>Helen Bennett</td>
+          <td>4</td>
         </tr>
         <tr>
-            <td>Laughing Bacchus Winecellars</td>
-            <td>Yoshi Tannamuri</td>
-            <td>5</td>
+          <td>Laughing Bacchus Winecellars</td>
+          <td>Yoshi Tannamuri</td>
+          <td>5</td>
         </tr>
         <tr>
-            <td>Magazzini Alimentari Riuniti</td>
-            <td>Giovanni Rovelli</td>
-            <td>6</td>
+          <td>Magazzini Alimentari Riuniti</td>
+          <td>Giovanni Rovelli</td>
+          <td>6</td>
         </tr>
         <tr>
-            <td>Magazzini Alimentari Riuniti</td>
-            <td>Giovanni Rovelli</td>
-            <td>7</td>
+          <td>Magazzini Alimentari Riuniti</td>
+          <td>Giovanni Rovelli</td>
+          <td>7</td>
         </tr>
         <tr>
-            <td>Magazzini Alimentari Riuniti</td>
-            <td>Giovanni Rovelli</td>
-            <td>8</td>
+          <td>Magazzini Alimentari Riuniti</td>
+          <td>Giovanni Rovelli</td>
+          <td>8</td>
         </tr>
         <tr>
-            <td>Magazzini Alimentari Riuniti</td>
-            <td>Giovanni Rovelli</td>
-            <td>9</td>
+          <td>Magazzini Alimentari Riuniti</td>
+          <td>Giovanni Rovelli</td>
+          <td>9</td>
         </tr>
         <tr>
-            <td>Magazzini Alimentari Riuniti</td>
-            <td>Giovanni Rovelli</td>
-            <td>10</td>
+          <td>Magazzini Alimentari Riuniti</td>
+          <td>Giovanni Rovelli</td>
+          <td>10</td>
         </tr>
       </table>
     </div>
@@ -93,3 +95,9 @@
     </footer>
   </body>
 </html>
+<script>
+  function toggleNavbar() {
+    document.querySelector(".navbar-links").classList.toggle("open");
+    document.querySelector(".navbar-auth").classList.toggle("open");
+  }
+</script>

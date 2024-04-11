@@ -13,6 +13,8 @@
     <nav class="navbar">
       <div class="navbar-container">
         <div id="navbar-logo">BOOKMANDU</div>
+        <div class="hamburger" onclick="toggleNavbar()">☰</div>
+
         <div class="navbar-links">
           <a href="#" class="nav-link">Home</a>
           <a href="pages/genre.html" class="nav-link">Genre</a>
@@ -49,7 +51,7 @@
     <!-- Trending books -->
     <div class="trending-container">
       <p class="page-title">Trending Books</p>
-      <button>See Books Ranking</button>
+      <a href="./pages/ranking.html">See Books Ranking</a>
     </div>
     <div class="product-grid">
       <div class="product-card">
@@ -240,3 +242,9 @@
     </footer>
   </body>
 </html>
+<script>
+  function toggleNavbar() {
+    document.querySelector(".navbar-links").classList.toggle("open");
+    document.querySelector(".navbar-auth").classList.toggle("open");
+  }
+</script>
