@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; 
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .ranking-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin: 20px auto;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Responsive Table */
+  @media screen and (max-width: 768px) {
+    th, td {
+      display: block;
+      text-align: center;
+    }
+  
+    td {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+  
+    td::before {
+      content: attr(data-label);
+      font-weight: bold;
+      display: block;
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    td, th {
+      padding: 8px;
+    }
+  }
+  
