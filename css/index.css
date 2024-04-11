@@ -284,6 +284,10 @@ html {
   color: #333;
 }
 
+.product-image img:hover {
+  cursor: pointer;
+}
+
 /* Responsive considerations */
 @media (max-width: 768px) {
   .authors-container {
