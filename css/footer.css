@@ -10,3 +10,13 @@
   font-size: 20px;
   font-style: bold;
 }
+@media (max-width: 1024px) {
+  .site-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #181b2f;
+    height: auto;
+    flex-direction: column;
+  }
+}
